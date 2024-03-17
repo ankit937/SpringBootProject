@@ -1,0 +1,10 @@
+Beans can be created with the help of @Beans and @Component
+@Beans - Should be declared in Config file with @Configuration annotation
+@Component - Class level annotation, no need to specify @Beans annotation when using @Component
+           - In Config file, @Configuration need to be added along with that @ComponentScan need to be added to search for @Component present in packages.
+
+Autowiring is done in 3 ways:
+Construtor based, Setter based, class filed based.
+
+
+
